@@ -1,0 +1,27 @@
+*  {
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    padding: 5px 5px;
+    width:100%;
+    height: 50vh;
+    position: relative;
+    margin:0;
+    height: 3;
+}
+
+.container {
+    display:flex;  
+    transform:translate(50%, 10%);
+    top:0%;
+    left:0%;
+    text-align:center;
+} 
+
+.proglogo {
+    margin:1rem 1rem;
+    text-align: center;
+    padding: 0px 0px;
+}
