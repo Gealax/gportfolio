@@ -10,15 +10,21 @@
     position: relative;
     margin:0;
     height: 3;
+    color: white;
 }
 
+
 .container {
+    color:white;
     display:flex;  
     transform:translate(50%, 10%);
     top:0%;
     left:0%;
     text-align:center;
 } 
+.container h3 {
+    color:#fff;
+}
 
 .proglogo {
     margin:1rem 1rem;

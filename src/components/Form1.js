@@ -12,7 +12,7 @@ const Form1 = () => {
             <label> Purpose </label>
             <input type="text"></input>
             <label> Massage </label>
-            <textarea rows="6" placeholder="Message here!"></textarea>
+            <textarea rows="5" placeholder="Message here!"></textarea>
             <button className="btn"> Submit </button>
             
             

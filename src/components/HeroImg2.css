@@ -1,13 +1,13 @@
 .hero-img{
     width:100%;
     background:rgba(0,0,0,0.5);
-    height: 60vh;
+    height: 30vh;
     position:relative;
 }
 
 .hero-img::before{
     content:"";
-    background:url( "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" );
+    background:url("../assets/he2.png" );
     background-size:cover;
     background-position: center top;
     height:100%;
@@ -35,7 +35,7 @@
     text-align:center;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 740px) {
     .hero-img h1 {
         font-size:2rem;
     }

@@ -9,16 +9,16 @@ const Footer = () => {
 
                    <div className="left">
                         <div className="location">
-                            <FaHome size={20} style={{color:"#fff", marginRight: "2rem"}} />
+                            <FaHome size={30} style={{color:"#fff", marginRight: "2rem"}} />
                             <p>Upper Anas,Brgy. Atipolo</p>
                             <p>Naval, Biliran</p>
                         </div>
                         <div className="mobile">
-                            <FaMobile size={20} style={{color:"#fff", marginRight: "2rem"}} />
+                            <FaMobile size={30} style={{color:"#fff", marginRight: "2rem"}} />
                             <p>09473957986</p>
                         </div>
                         <div className="email">
-                            <FaMailBulk size={20} style={{color:"#fff", marginRight: "2rem"}} />
+                            <FaMailBulk size={30} style={{color:"#fff", marginRight: "2rem"}} />
                             <p>bags7digiprint@gmail.com</p>
                         </div>
                     </div>

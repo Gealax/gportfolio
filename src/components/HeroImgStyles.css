@@ -7,14 +7,12 @@
 .front-img {
     width:100%;
     height:100%;
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
+  
 }
 
 .content {
     position:relative;
-    transform:translate(50%, -120%);
+    transform:translate(50%, -100%);
     top:-10%;
     left:-50%;
     text-align:center;
@@ -32,23 +30,44 @@
 }
 
 .hero {
-    height: 100%;
-    width: 100%;
+    height: 130vh;
+    width: auto;
 }
 
 
 
 .hero .content h1{
+    
     font-size:3rem;
     padding: 0.6rem 0 1.5rem;
 }
 
-.hero .content p{
+.hero .content  p{
     font-size: 2rem;
     font-weight: 400;
 } 
 
- 
+ .intro {
+   position:relative;
+   border: 1px solid white;
+    transform:translate(50%, -200%);
+    top:-10%;
+    left:-50%;
+    text-align:center;
+} 
+ .intro h4{ 
+    position: relative;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+   
+   
+    
+}  
+
+
 
 .hero .content h2{
     color:aliceblue;

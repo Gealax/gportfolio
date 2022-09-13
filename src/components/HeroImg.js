@@ -19,8 +19,16 @@ const HeroImg = () => {
                 <Link to="/project" className="btn">Projects</Link>
                 <Link to="/contact" className="btn btn-light">Contact</Link>
              </div>
-        </div> 
+                         
+        </div>
         
+  
+   
+        <div className="intro">
+             <h4>I am person who likes to learn new things specially when it comes (IOT) internet of things technology.</h4>
+             <h4> I am very passionate and enthusiastic about creating constructive and efficient solutions. </h4>
+            <h4> I believe that having an open mind can help you remain creative and grasp ideas from any subject to implement it in your field!</h4> 
+        </div>   
     </div>
   )
 }
