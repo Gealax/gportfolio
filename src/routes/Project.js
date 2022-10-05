@@ -9,6 +9,7 @@ const Project = () => {
             <div>
                 <Navbar/>
                 <HeroImg2 heading="PROJECTS AND DESIGN"/>
+                
                 <Projec/>
                 <Footer/>
             </div>

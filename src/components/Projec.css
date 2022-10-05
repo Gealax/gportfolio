@@ -2,9 +2,15 @@
   box-sizing: border-box;
 }
 
+.proglogo img {
+  width:100%;
+  height: auto;
+}
+
 .contain h1 {
-    text-size-adjust: 20px;
-    margin: 20% ;
+    text-size-adjust: 10px;
+    margin: 2% ;
+   
 }
 .col {
     justify-content: space-around;
