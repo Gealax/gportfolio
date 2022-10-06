@@ -10,8 +10,8 @@ const Footer = () => {
                    <div className="left">
                         <div className="location">
                             <FaHome size={30} style={{color:"#fff", marginRight: "2rem"}} />
-                            <p>Upper Anas,Brgy. Atipolo</p>
-                            <p>Naval, Biliran</p>
+                            <p>Upper Anas,Brgy. Atipolo
+                               Naval, Biliran</p>
                         </div>
                         <div className="mobile">
                             <FaMobile size={30} style={{color:"#fff", marginRight: "2rem"}} />

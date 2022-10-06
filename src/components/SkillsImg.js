@@ -151,17 +151,17 @@ const SkillsImg = () => {
           <span className="font-link">
            <h1 >GRAPICS/3D MODELING/SOUND EDIT</h1>
           </span>
-             <div className="col d-flex justify-content-around col-sm col-md">
+             <div className="col d-flex justify-content-around col-sm">
       
-                   <div className="logoup">
+                   <div className="logoup col-sm-2">
                       <img className="photo-img" src={PhotoStyle} alt="ADOBE PHOTOSHOPImg"/>
                       <h4>Adobe Photoshop</h4>
                    </div>
-                   <div className="logoup">                    
+                   <div className="logoup col-sm-2">                    
                       <img className="max-img" src={MaxStyle} alt="Autodesk 3ds MaxImg"/>
                       <h4>Autodesk 3ds Max</h4>
                    </div>
-                   <div className="logoup">
+                   <div className="logoup col-sm-2">
                       <img className="cool-img" src={CoolStyle} alt="COOL EDITPROImg"/>
                       <h4>Cool Edit Pro</h4>
                    </div> 
