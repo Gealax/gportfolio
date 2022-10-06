@@ -34,39 +34,39 @@ const SkillsImg = () => {
           <span className="font-link">
            <h1 >KODEGO SKILLS AQUIRED</h1>
           </span>
-                <div className="row  justify-content-around ">
-                <div className="col d-flex justify-content-around col-sm col-lg " >
+                <div className="row justify-content-aroun">
+                <div className="col  d-flex justify-content-around col-sm col-lg " >
       
-                   <div className="logoup col-2 col-lg">
+                   <div className="logoup col-sm-2 ">
                       <img className="html-img" src={HtmlStyle} alt="HTMLImg"/>
                       <h4>HTML</h4>
                    </div>
-                   <div className="logoup col-2 col-lg ">                    
+                   <div className="logoup col-sm-2 ">                    
                       <img className="css-img" src={CasStyle} alt="CSSImg"/>
                       <h4>CSS</h4>
                    </div>
-                   <div className="logoup col-2 col-lg">
+                   <div className="logoup col-sm-2 ">
                       <img className="js-img" src={JavaStyle} alt="JAVASImg"/>
                       <h4>JAVASCRIPT</h4>
                    </div> 
-                   <div className="logoup col-2 col-lg">
+                   <div className="logoup col-sm-2 ">
                       <img className="sass-img" src={SasStyle} alt="SASSImg"/>
                       <h4>SASS</h4>
                    </div>
-                   <div className="logoup col-2 col-lg">
+                   <div className="logoup col-sm-2 ">
                       <img className="git-img" src={GitStyle} alt="GITImg"/>
                       <h4>Git</h4>
                    </div>
-                   <div className="logoup col-2 col-lg">
+                   <div className="logoup col-sm-2 ">
                       <img className="boots-img" src={BootsStyle} alt="BOOTSTRAPImg"/>
                       <h4>Bootstrap</h4>
                    </div>
 
-                   <div className="logoup col-2 col-lg-2">
+                   <div className="logoup col-sm-2 ">
                       <img className="react-img" src={ReactStyle} alt="REACTImg"/>
                       <h4>REACT</h4>
                    </div>     
-                   <div className="logoup col-2 col-lg-3">
+                   <div className="logoup col-sm-2 ">
                       <img className="source-img" src={SourceStyle} alt="SOURCETREEImg"/>
                       <h4>SourceTree</h4>
                    </div>                 
@@ -76,36 +76,36 @@ const SkillsImg = () => {
             <div className="row  justify-content-around ">  
           <div className="col d-flex justify-content-around col-sm col-lg">
 
-               <div className="logoup col-2">
+               <div className="logoup col-sm-2">
                   <img className="github-img" src={GithubStyle} alt="GITHUBImg"/>
                   <h4>Github</h4>
                </div>
-               <div className="logoup col-2">                    
+               <div className="logoup col-sm-2">                    
                   <img className="node-img" src={NodeStyle} alt="NODEImg"/>
                   <h4>Node.js</h4>
                </div>
-               <div className="logoup col-2">
+               <div className="logoup col-sm-2">
                   <img className="npm-img" src={NpmStyle} alt="NPMImg"/>
                   <h4>NPM</h4>
                </div> 
-               <div className="logoup col-2">
+               <div className="logoup col-sm-2">
                   <img className="api-img" src={ApiStyle} alt="APIImg"/>
                   <h4>REST API</h4>
                </div> 
-               <div className="logoup col-2">
+               <div className="logoup col-sm-2">
                   <img className="sql-img" src={SqlStyle} alt="MYSQLImg"/>
                   <h4>My SQL</h4>
                </div>
-               <div className="logoup col-2">
+               <div className="logoup col-sm-2">
                   <img className="laravel-img" src={LaravelStyle} alt="LARAVELImg"/>
                   <h4>LARAVEL</h4>
                </div>
-               <div className="logoup col-2">
+               <div className="logoup col-sm-2">
                   <img className="post-img" src={PostStyle} alt="POSTMANImg"/>
                   <h4>Postman</h4>
                </div>
 
-               <div className="logoup col-2">
+               <div className="logoup col-sm-2">
                   <img className="vercel-img" src={VercelStyle} alt="VERCELImg"/>
                   <h4>Vercel</h4>
                </div>           
@@ -151,7 +151,7 @@ const SkillsImg = () => {
           <span className="font-link">
            <h1 >GRAPICS/3D MODELING/SOUND EDIT</h1>
           </span>
-             <div className="col d-flex justify-content-between col-sm col-md">
+             <div className="col d-flex justify-content-around col-sm col-md">
       
                    <div className="logoup">
                       <img className="photo-img" src={PhotoStyle} alt="ADOBE PHOTOSHOPImg"/>
