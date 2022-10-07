@@ -3,7 +3,7 @@
 }
 
 .logo {
-    
+
     padding: 5px 5px;
     width:50%;
     height: 100%;
@@ -22,6 +22,7 @@
 }
 
 .font-link h1{
+    
     font-family: 'Faster One', cursive;
 }
 
@@ -35,20 +36,18 @@
 .logonet img:hover {
     opacity: 0.3;  
 }
-.logonet h4:hover {
-    color: yellow; 
-}
-
 
 .logodown img { 
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
 }
 
 .container{
-    color:white;
+    color:rgb(246, 244, 244);
     /* position:absolute; */
     /* display: flex; */
+    padding:5;
+    margin-top:auto;
     transform:translate(50%, 10%);
     top:0%;
     left:0%;
