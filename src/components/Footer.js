@@ -1,5 +1,5 @@
 import "./FooterStyle.css";
-import React from 'react';
+import React from "react";
 import CodeStyle from "../assets/code.png";
 import {FaHome,FaMobile, FaMailBulk, FaTwitter, FaInstagram, FaLink,FaFacebook, FaLinkedin} from "react-icons/fa";
 
@@ -7,7 +7,6 @@ const Footer = () => {
   return (
     <div className="footer">
                 <div className="footer-container">
-
                    <div className="left">
                         <div className="location">
                             <FaHome size={70} style={{color:"#fff", marginRight: "2rem"}} />
