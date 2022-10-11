@@ -6,7 +6,7 @@
 
 .footer-container {
     padding:auto;
-    max-width: 1300px;
+    max-width: 1140px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
