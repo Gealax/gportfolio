@@ -34,11 +34,11 @@ const SkillsImg = () => {
     <div className="logo">
         <div className="container  ">
           <span className="font-link" >
-           <h1 >KODEGO SKILLS AQUIRED</h1>
+           <h1 >WEB DEVELOPER LANGUAGES AQUIRED IN KODEGO</h1>
           </span>
-                <div className="row justify-content-center">
+              <div className="row justify-content-center">
                 <div className="col d-md-flex " >
-      
+
                    <div className="logoup col-sm-2 ">
                       <img className="html-img" src={HtmlStyle} alt="HTMLImg"/>
                       <h4>HTML</h4>
@@ -55,7 +55,10 @@ const SkillsImg = () => {
                       <img className="sass-img" src={SasStyle} alt="SASSImg"/>
                       <h4>SASS</h4>
                    </div>
-                  
+                  </div>
+             </div>
+             <div className="row justify-content-center">
+                <div className="col d-md-flex " >
                    <div className="logoup col-sm-2 ">
                       <img className="boots-img" src={BootsStyle} alt="BOOTSTRAPImg"/>
                       <h4>Bootstrap</h4>
@@ -64,34 +67,25 @@ const SkillsImg = () => {
                         <img className="github-img" src={GithubStyle} alt="GITHUBImg"/>
                         <h4>Github</h4>
                    </div>
-                        <div className="logoup col-sm-2">                    
+            
+            
+                     <div className="logoup col-sm-2">                    
                         <img className="node-img" src={NodeStyle} alt="NODEImg"/>
                         <h4>Node.js</h4>
                    </div>
                    <div className="logoup col-sm-2 ">
                       <img className="react-img" src={ReactStyle} alt="REACTImg"/>
                       <h4>REACT</h4>
-                   </div>     
-                
-
-               </div>
-            </div>   
-
-          <div className="row justify-content-center">
-             <div className="col d-md-flex " >
-                   <div className="logoup col-sm-2 ">
-                      <img className="source-img" src={SourceStyle} alt="SOURCETREEImg"/>
-                      <h4>SourceTree</h4>
-                   </div>  
-                    <div className="logoup col-sm-2 ">
+                   </div>
+                  </div>
+             </div>     
+             <div className="row justify-content-center">
+                <div className="col d-md-flex " >
+                 <div className="logoup col-sm-2 ">
                       <img className="git-img" src={GitStyle} alt="GITImg"/>
                       <h4>Git</h4>
                    </div>
-             
-                  <div className="logoup col-sm-2">
-                        <img className="npm-img" src={NpmStyle} alt="NPMImg"/>
-                        <h4>NPM</h4>
-                   </div> 
+                       
                    <div className="logoup col-sm-2">
                         <img className="api-img" src={ApiStyle} alt="APIImg"/>
                         <h4>REST API</h4>
@@ -100,32 +94,45 @@ const SkillsImg = () => {
                         <img className="sql-img" src={SqlStyle} alt="MYSQLImg"/>
                         <h4>My SQL</h4>
                    </div>
-               <div className="logoup col-sm-2">
-                  <img className="laravel-img" src={LaravelStyle} alt="LARAVELImg"/>
-                  <h4>LARAVEL</h4>
-               </div>
-               <div className="logoup col-sm-2">
-                  <img className="post-img" src={PostStyle} alt="POSTMANImg"/>
-                  <h4>Postman</h4>
-               </div>
+                   <div className="logoup col-sm-2">
+                        <img className="laravel-img" src={LaravelStyle} alt="LARAVELImg"/>
+                        <h4>(PHP)LARAVEL</h4>
+                   </div>
 
-               <div className="logoup col-sm-2">
-                  <img className="vercel-img" src={VercelStyle} alt="VERCELImg"/>
-                  <h4>Vercel</h4>
-               </div>           
                </div>
-             </div>
-             </div>
-           
-             <br/> 
-            <br/>
-            <br/>
-      
+            </div>   
        <div className="container">
           <span className="font-link">
-           <h1 >COLLEGE  PROGRAM  AQUIRED</h1>
+           <h1 >WEB  DEVELOPER  TOOLS</h1>
           </span>
-            <div className="row justify-content-around">
+          <div className="row justify-content-center">
+             <div className="col d-md-flex " >
+                   <div className="logoup col-sm-2 ">
+                      <img className="source-img" src={SourceStyle} alt="SOURCETREEImg"/>
+                      <h4>SourceTree</h4>
+                   </div>  
+                   <div className="logoup col-sm-2">
+                        <img className="npm-img" src={NpmStyle} alt="NPMImg"/>
+                        <h4>NPM</h4>
+                   </div> 
+                  <div className="logoup col-sm-2">
+                        <img className="post-img" src={PostStyle} alt="POSTMANImg"/>
+                        <h4>Postman</h4>
+                  </div>
+                  <div className="logoup col-sm-2">
+                        <img className="vercel-img" src={VercelStyle} alt="VERCELImg"/>
+                        <h4>Vercel</h4>
+                  </div>           
+               </div>
+             </div>
+           </div>  
+         </div>  
+         <br/>      
+       <div className="container">
+          <span className="font-link">
+           <h1 > COLLEGE   PROGRAM   AQUIRED </h1>
+          </span>
+           <div className="row justify-content-around">
               <div className="col d-lg-flex  ">
                
                   <div className="logodown col-sm-2 ">
@@ -144,10 +151,10 @@ const SkillsImg = () => {
                       <img className="java-img" src={Java1Style} alt="JAVAImg"/>
                       <h4>Java</h4>
                    </div> 
-                   <div className="logodown col-sm-2">
+                   {/* <div className="logodown col-sm-2">
                       <img className="access-img" src={AccessStyle} alt="ACCESSImg"/>
                       <h4>Microsoft Access</h4>
-                   </div> 
+                   </div>  */}
            </div>    
          </div>
      
@@ -179,7 +186,7 @@ const SkillsImg = () => {
       
        <div className="container">
          <span className="font-link">
-           <h1>BADGE and CERTIFICATES</h1>
+           <h1>BADGE  and  CERTIFICATES</h1>
           </span>
           <div className="row justify-content- ">
               <div className="col d-lg-flex  ">
@@ -202,7 +209,7 @@ const SkillsImg = () => {
                            </a>              
                     </div>
                     <div className="logonet"> 
-                           <a href="" target="_blank">
+                           <a href="https://drive.google.com/file/d/1H3tShIKa34U6c8tOwYkLg9--thLL2PyP/view?usp=sharing" target="_blank">
                                 <img className="kode-img" src={KodeStyle} alt="KODEGOImg" />
                                 <h4>FULL STACK WEB DEVELOPER KODEGO</h4> 
                            </a>              
