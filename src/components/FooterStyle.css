@@ -14,12 +14,13 @@
 }
 
 iframe {
+   text-align: justify;
    width:50%;
-   height:200px
+   height:190px
 }
 
 .googlemap {
-    width: 250px;
+    width: 290px;
  }
 
  .left {

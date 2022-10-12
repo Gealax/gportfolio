@@ -32,7 +32,7 @@ import KodeStyle from "../proglogo/kodego.png"
 const SkillsImg = () => {
   return (
     <div className="logo">
-        <div className="container  ">
+        <div className="container">
           <span className="font-link" >
            <h1 >WEB DEVELOPER LANGUAGES AQUIRED IN KODEGO</h1>
           </span>
