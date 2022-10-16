@@ -2,12 +2,12 @@ import "./Projec.css"
 import React from 'react'
 import Vendo from "../assets/vendo.png";
 import Mags from "../assets/Mags.png";
-import Trenz from "../assets/trenz.png";
+import Portfolio from "../assets/portfolio.png";
 import  "../assets/vendo.png"
 
 const Projec = () => {
   return ( <div className="contain">
-     <h1 className='reviewTitle text-center'>Projects</h1>
+     <h1 className='reviewTitle text-center'> Website Projects</h1>
             <div class="row row-cols-1 row-cols-md-3 row-cols-sm-3 ">              
                 <div class="col">                
                   <div class="card h-100">
@@ -33,10 +33,10 @@ const Projec = () => {
                 <div class="col">
                   <div class="card h-100">
                       <div className="proglogo">                                
-                                <a   href="https://www.trenzcellian.ga" target="_blank">
-                                    <img src={Trenz} alt="TRENZ PURPPLE CORN"/>
+                                <a   href="https://gportfolio.vercel.app/" target="_blank">
+                                    <img src={Portfolio} alt="PORTFOLIO"/>
                                 </a>
-                                <h5 class="card-title text-center">Trenzcellian Marketing</h5>
+                                <h5 class="card-title text-center">Portfolio</h5>
                        </div>          
                   </div>
                 </div>

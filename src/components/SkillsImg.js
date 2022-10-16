@@ -9,7 +9,7 @@ import GitStyle from "../proglogo/git.png";
 import BootsStyle from "../proglogo/Bootstrap.png";
 import GithubStyle from "../proglogo/github.png";
 import NodeStyle from "../proglogo/node.png";
-import ApiStyle from "../proglogo/api1.png";
+import ApiStyle from "../proglogo/api.png";
 import SqlStyle from "../proglogo/sql.png";
 import LaravelStyle from "../proglogo/laravel.png";
 import PostStyle from "../proglogo/post.png";
@@ -27,7 +27,11 @@ import CoolStyle from "../proglogo/sound.png";
 import IbmStyle from "../proglogo/ibm.png";
 import CiscoStyle from "../proglogo/cisco.png";
 import TesdaStyle from "../proglogo/tesda.png";
-import KodeStyle from "../proglogo/kodego.png"
+import KodeStyle from "../proglogo/kodego.png";
+import FigmaStyle from "../proglogo/figma.png";
+import XamppStyle from "../proglogo/xampp.png";
+import HerukoStyle from "../proglogo/heruko.png";
+import MaterialStyle from "../proglogo/material.png";
 
 const SkillsImg = () => {
   return (
@@ -63,20 +67,18 @@ const SkillsImg = () => {
                       <img className="boots-img" src={BootsStyle} alt="BOOTSTRAPImg"/>
                       <h4>Bootstrap</h4>
                    </div>
-                   <div className="logoup col-sm-2">
-                        <img className="github-img" src={GithubStyle} alt="GITHUBImg"/>
-                        <h4>Github</h4>
-                   </div>
-            
-            
-                     <div className="logoup col-sm-2">                    
-                        <img className="node-img" src={NodeStyle} alt="NODEImg"/>
-                        <h4>Node.js</h4>
-                   </div>
-                   <div className="logoup col-sm-2 ">
+                  <div className="logoup col-sm-2 ">
                       <img className="react-img" src={ReactStyle} alt="REACTImg"/>
                       <h4>REACT</h4>
                    </div>
+                    <div className="logoup col-sm-2">                    
+                        <img className="node-img" src={NodeStyle} alt="NODEImg"/>
+                        <h4>Node.js</h4>
+                   </div>
+                   <div className="logoup col-sm-2">
+                        <img className="npm-img" src={NpmStyle} alt="NPMImg"/>
+                        <h4>NPM</h4>
+                   </div>                
                   </div>
              </div>     
              <div className="row justify-content-center">
@@ -88,7 +90,7 @@ const SkillsImg = () => {
                        
                    <div className="logoup col-sm-2">
                         <img className="api-img" src={ApiStyle} alt="APIImg"/>
-                        <h4>REST API</h4>
+                        <h4>API</h4>
                    </div> 
                    <div className="logoup col-sm-2">
                         <img className="sql-img" src={SqlStyle} alt="MYSQLImg"/>
@@ -96,7 +98,7 @@ const SkillsImg = () => {
                    </div>
                    <div className="logoup col-sm-2">
                         <img className="laravel-img" src={LaravelStyle} alt="LARAVELImg"/>
-                        <h4>(PHP)LARAVEL</h4>
+                        <h4>LARAVEL(PHP)</h4>
                    </div>
 
                </div>
@@ -108,13 +110,30 @@ const SkillsImg = () => {
           <div className="row justify-content-center">
              <div className="col d-md-flex " >
                    <div className="logoup col-sm-2 ">
+                      <img className="figma-img" src={FigmaStyle} alt="FIGMAImg"/>
+                      <h4>Figma</h4>
+                   </div>  
+                   <div className="logoup col-sm-2">
+                        <img className="github-img" src={GithubStyle} alt="GITHUBImg"/>
+                        <h4>Github</h4>
+                   </div>         
+                  <div className="logoup col-sm-2">
+                        <img className="material-img" src={MaterialStyle} alt="MATERIALImg"/>
+                        <h4>Material UI</h4>
+                  </div>
+                  <div className="logoup col-sm-2">
+                        <img className="xampp-img" src={XamppStyle} alt="XAMPPImg"/>
+                        <h4>XAMPP</h4>
+                  </div>           
+               </div>
+             </div>
+             <div className="row justify-content-center">
+                 <div className="col d-md-flex " >
+                   <div className="logoup col-sm-2 ">
                       <img className="source-img" src={SourceStyle} alt="SOURCETREEImg"/>
                       <h4>SourceTree</h4>
                    </div>  
-                   <div className="logoup col-sm-2">
-                        <img className="npm-img" src={NpmStyle} alt="NPMImg"/>
-                        <h4>NPM</h4>
-                   </div> 
+                  
                   <div className="logoup col-sm-2">
                         <img className="post-img" src={PostStyle} alt="POSTMANImg"/>
                         <h4>Postman</h4>
@@ -122,9 +141,14 @@ const SkillsImg = () => {
                   <div className="logoup col-sm-2">
                         <img className="vercel-img" src={VercelStyle} alt="VERCELImg"/>
                         <h4>Vercel</h4>
-                  </div>           
+                  </div>
+                  <div className="logoup col-sm-2">
+                        <img className="heruko-img" src={HerukoStyle} alt="HERUKOImg"/>
+                        <h4>Heruko</h4>
+                   </div>         
                </div>
              </div>
+
            </div>  
          </div>  
          <br/>      
@@ -191,7 +215,7 @@ const SkillsImg = () => {
           <div className="row justify-content- ">
               <div className="col d-lg-flex  ">
                      <div className="logonet"> 
-                           <a href="" target="_blank">
+                           <a href="https://drive.google.com/file/d/1LsotqTftmE7v6F107W7u1TyL-Dwcv_wl/view?usp=sharing" target="_blank">
                                 <img className="cisco-img" src={TesdaStyle} alt="TESDAImg" />
                                 <h4>PC OPERATION NC II (TESDA)</h4> 
                            </a>              
