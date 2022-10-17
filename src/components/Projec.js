@@ -3,11 +3,10 @@ import React from 'react'
 import Vendo from "../assets/vendo.png";
 import Mags from "../assets/Mags.png";
 import Portfolio from "../assets/portfolio.png";
-import  "../assets/vendo.png"
 
 const Projec = () => {
   return ( <div className="contain">
-     <h1 className='reviewTitle text-center'> Website Projects</h1>
+     <h1 className='reviewTitle text-center'>Website Projects</h1>
             <div class="row row-cols-1 row-cols-md-3 row-cols-sm-3 ">              
                 <div class="col">                
                   <div class="card h-100">
